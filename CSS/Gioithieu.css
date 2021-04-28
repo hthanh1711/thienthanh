@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nen{
+    width: 100%;
+    height: 40px;
+    background:royalblue;
+}
+
+.chen{
+    margin-left: 150px;
+}
+.chen ul li{
+    list-style: none;
+    float: left;
+    margin-left: 80px;
+    position: relative;
+    font-family: Times New Roman;
+    margin-top: 10px;
+    color: azure;
+    
+}
+.chen ul li img{
+    width: 20px;
+    height: 20px;
+}
+header{
+    width: 100%;
+    height: 150px;
+    background-color:#fff;
+}
+div#LOGO{
+    float: left;
+}
+div#LOGO img{
+    width: 180px;
+    height: 150px;
+    margin-left: 150px;
+}
+div#dangnhap{
+    float: right;
+    margin-top: -50px;
+    margin-right: 80px;
+}
+div#dangnhap img{
+    width: 50px;
+    height: 50px;  
+}
+div#dangnhap a{
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    color: #000;
+}
+header div#dangnhap a:hover{
+    color:orange;
+}
+header div#sub>div#tim input[type=text]
+{
+    float: center;
+    height: 40px;
+    width: 500px;
+    font-size: 18px;
+    margin-left: 85px;
+    margin-top: 40px;
+    
+}
+header div#sub>div#tim input[type=submit]
+{
+    float: center;
+    height: 40px;
+    width: 70px;
+    background:peru;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 14px; 
+}
+header div#sub>div#tim input[type=submit]:hover
+{
+    cursor:pointer;
+}
+.container{
+    width: 1200px;
+    height: auto;
+    margin: 0px auto;
+
+}
+nav{
+	width:1200px;
+	height:50px;
+	background-color:royalblue;
+	margin-bottom:5px;
+    text-align: center;
+}
+nav a{
+	color:#fff;
+	font-weight:bold;
+	font-size:20px;
+	text-decoration:none;
+	width:200px;
+	height:50px;
+    float: left;
+	line-height:50px;
+    margin-left: 20px;
+}
+nav a:hover{
+	color:#F36;
+	background-color:#Ffc;
+}
+footer{
+    background-color: #79B22F;
+    height: 100px;
+    padding-top: 10px;
+}
+footer>p{
+    text-align: center;
+    font-size: 17px;
+    margin-top: 5px;
+}

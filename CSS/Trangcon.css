@@ -1,0 +1,252 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nen{
+    width: 100%;
+    height: 40px;
+    background:royalblue;
+}
+
+.chen{
+    margin-left: 150px;
+}
+.chen ul li{
+    list-style: none;
+    float: left;
+    margin-left: 80px;
+    position: relative;
+    font-family: Times New Roman;
+    margin-top: 10px;
+    color: azure;
+    
+}
+.chen ul li img{
+    width: 20px;
+    height: 20px;
+}
+header{
+    width: 100%;
+    height: 150px;
+    background-color:#fff;
+}
+div#LOGO{
+    float: left;
+}
+div#LOGO img{
+    width: 180px;
+    height: 150px;
+    margin-left: 150px;
+}
+div#dangnhap{
+    float: right;
+    margin-top: -50px;
+    margin-right: 80px;
+}
+div#dangnhap img{
+    width: 50px;
+    height: 50px;  
+}
+div#dangnhap a{
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    color: #000;
+}
+header div#dangnhap a:hover{
+    color:orange;
+}
+header div#sub>div#tim input[type=text]
+{
+    float: center;
+    height: 40px;
+    width: 500px;
+    font-size: 18px;
+    margin-left: 85px;
+    margin-top: 40px;
+    
+}
+header div#sub>div#tim input[type=submit]
+{
+    float: center;
+    height: 40px;
+    width: 70px;
+    background:peru;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 14px; 
+}
+header div#sub>div#tim input[type=submit]:hover
+{
+    cursor:pointer;
+}
+.container{
+    width: 1200px;
+    height: auto;
+    margin: 0px auto;
+
+}
+nav{
+	width:1200px;
+	height:50px;
+	background-color:royalblue;
+	margin-bottom:5px;
+    text-align: center;
+}
+nav a{
+	color:#fff;
+	font-weight:bold;
+	font-size:20px;
+	text-decoration:none;
+	width:200px;
+	height:50px;
+    float: left;
+	line-height:50px;
+    margin-left: 20px;
+}
+nav a:hover{
+	color:#F36;
+	background-color:#Ffc;
+}
+.nen4{
+    width: 100%;
+}
+article{
+    width: 1200px;
+    display: table-row;
+    background:#edeaea;
+}
+aside#left, aside#right {
+    display: table-cell;
+    vertical-align: top;
+}
+aside#left{
+    width: 220px;
+}
+aside#left>div>p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(204, 49, 49);
+    height: 25px;
+    padding-top: 5px;
+}
+aside#left>div>ul{
+    padding-left: 10px;
+    font-size: 16px;
+    font-family: Arial;
+    list-style: none;
+}
+aside#left>div>ul>li{
+    height: 30px;
+    list-style-position: inside;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+aside#left>div>ul>li a{
+       color: #206AB5;
+       text-decoration: none;
+}
+aside#left>div>ul>li a:hover{
+    color: #ff0000;
+}
+.sach{
+    width: 250px;
+    height: 340px;
+    background-color: #c7e5f2;
+    margin: 5px;
+    border-radius: 1px;
+    border: 1px dashed #edeaea;
+    text-align: center;
+    float: left;
+    margin-left: 30px;
+}
+.tensach{
+    margin-top: 5px;
+    vertical-align: top;
+    height: 40px;
+    
+    
+}
+.tensach a{
+    font-weight: bold;
+    color: #133a62;
+    font-size: 25px;
+    text-decoration: none;
+   
+}
+.tensach a:hover{
+    font-style:normal;
+    color:crimson;
+}
+.hinhsach{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 150px;
+    height: 200px;
+    margin-top: 20px;
+    transition: all 0.5s ease;
+}
+.hinhsach :hover{
+    transform: scale(5);
+}
+.sach:hover .hinhsach{
+	transform: scale(1.1);
+}
+.donggia{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.gia{
+    color: red;
+    font-weight: bold;
+}
+.them {
+    margin: 5px 0px;
+    height: 30px;
+    background-color: coral;
+    padding-top: 5px;
+    
+}
+.them a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.them a:hover{
+    color: aliceblue;
+}
+#list {
+    margin: 0px auto;
+    width: 48px;
+    margin-bottom: 5%;
+}
+
+#list li {
+    text-align: center;
+    line-height: 20px;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border: solid 1px black;
+}
+
+#list li:hover {
+    background-color: rgb(200, 0, 0);
+    cursor: pointer;
+}
+
+#list li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: black;
+    text-decoration: none;
+}
+footer{
+    background-color: #79B22F;
+    height: 100px;
+    padding-top: 10px;
+}
+footer>p{
+    text-align: center;
+    font-size: 17px;
+    margin-top: 5px;
+}
